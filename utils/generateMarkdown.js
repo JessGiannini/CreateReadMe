@@ -21,28 +21,28 @@ function generateMarkdown(answers) {
 
   if (answers.table === true) {
     tableContents = `## Table of Contents\n
-    * [Description](#description)\n
-    * [Installation](#installation)\n
-    * [Usage](#usage)\n
-    * [Credits](#credits)\n
-    * [License](#license)\n
-    * [Features](#features)\n
-    * [Contributing](#contributing)\n
-    * [Tests](#tests)\n
-    * [Acknowledgments](#acknowledgments)\n
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [License](#license)
+  * [Features](#features)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
     `;
   } else {
     tableContents = "";
   }
 
-  endReadMe = `## Installation\n\n
+  endReadMe = `\n## Installation\n\n
   ${answers.installation}\n\n
   ## Usage\n\n
   ${answers.usage}\n
   ![Screenshot}(${answers.screenshot})\n\n
   ## Credits\n\n
   ${answers.credits}\n
-  # [${answers.gitHub}](www.github.com/${answers.gitHub})\n\n 
+  # [${answers.github}](www.github.com/${answers.github})\n\n 
   ## License\n\n
   ![license](https://img.shields.io/badge/license-${answers.license}-brightgreen)\n\n
   ## Features\n\n
@@ -51,8 +51,8 @@ function generateMarkdown(answers) {
   ${answers.contributing}\n\n
   ## Tests\n\n
   ${answers.tests}\n\n 
-  ## Acknowledgments\n\n
-  ${answers.acknowledgments}`;
+  ## Questions\n\n
+  Thank you for your question of "${answers.questions}". All questions must be submitted in writing to jessgiannini@gmail.com.`;
 
   var completeReadme = (topReadMe += tableContents += endReadMe);
 

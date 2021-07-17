@@ -64,7 +64,8 @@ const questions = [
   {
     //title ## License\n\n with checked license, badge, and url
     type: "checkbox", //license question
-    message: "Which license did you use to create this project?",
+    message:
+      "Which license did you use to create this project? Please, selct only one.",
     name: "license",
     choices: ["MIT", "BSD", "GPL", "Apache"],
   },
@@ -88,11 +89,10 @@ const questions = [
     name: "tests",
   },
   {
-    // title ## Acknowledgments\n\n with user input of a description
+    // title ## Questions\n\n with user input of a description
     type: "input",
-    message:
-      "Please, provide any indluences or people you would like to acknowledge or thank.",
-    name: "acknowledgments",
+    message: "Please, let me know if you have any questions.",
+    name: "questions",
   },
 ];
 
