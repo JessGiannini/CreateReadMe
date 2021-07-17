@@ -40,10 +40,11 @@ function generateMarkdown(answers) {
   ${answers.installation}\n\n
   ## Usage\n\n
   ${answers.usage}\n
-  ![Screenshot}(${answers.screenshot})\n\n
+  ![Screenshot](${answers.screenshot})\n\n
   ## Credits\n\n
   ${answers.credits}\n
-  # [${answers.github}](www.github.com/${answers.github})\n\n 
+  Git Hub\n
+  # [${answers.github}](https://github.com/${answers.github})\n\n 
   ## License\n\n
   This project uses the ${answers.license} license. To learn more visit [${answers.license}](https://en.wikipedia.org/wiki/${answers.license}_License)\n\n
   ## Features\n\n
@@ -54,7 +55,7 @@ function generateMarkdown(answers) {
   ${answers.tests}\n\n 
   ## Questions\n\n
   If you have any questions you can email me at ${answers.email} or find me on Git Hub.\n
-  # [${answers.github}](www.github.com/${answers.github})`;
+  # [${answers.github}](https://github.com/${answers.github})`;
 
   var completeReadme = (topReadMe += tableContents += endReadMe);
 
