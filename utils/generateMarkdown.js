@@ -53,7 +53,8 @@ function generateMarkdown(answers) {
   ## Tests\n\n
   ${answers.tests}\n\n 
   ## Questions\n\n
-  Thank you for your question of "${answers.questions}". All questions must be submitted in writing to jessgiannini@gmail.com.`;
+  If you have any questions you can email me at ${answers.email} or find me on Git Hub.\n
+  # [${answers.github}](www.github.com/${answers.github})`;
 
   var completeReadme = (topReadMe += tableContents += endReadMe);
 
