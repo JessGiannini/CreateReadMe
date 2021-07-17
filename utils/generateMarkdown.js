@@ -12,7 +12,8 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers) {
-  var topReadMe = `# ${answers.projectTitle}\n 
+  var topReadMe = `# ${answers.projectTitle}\n
+  ![license](https://img.shields.io/badge/license-${answers.license}-brightgreen) 
   ## Description\n\n
   ${answers.projectInfo}\n 
   [Live Link](${answers.projectLink})\n\n`;
@@ -44,7 +45,7 @@ function generateMarkdown(answers) {
   ${answers.credits}\n
   # [${answers.github}](www.github.com/${answers.github})\n\n 
   ## License\n\n
-  ![license](https://img.shields.io/badge/license-${answers.license}-brightgreen)\n\n
+  This project uses the ${answers.license} license. To learn more visit [${answers.license}](https://en.wikipedia.org/wiki/${answers.license}_License)\n\n
   ## Features\n\n
   ${answers.features}\n\n
   ## Contributing\n\n
