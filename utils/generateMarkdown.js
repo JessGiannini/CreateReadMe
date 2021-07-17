@@ -12,12 +12,30 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers) {
-  return `# ${answers.projectTitle}\n 
+  var topReadMe = `# ${answers.projectTitle}\n 
   ## Description\n\n
   ${answers.projectInfo}\n 
-  [Live Link](${answers.projectLink})\n\n
-  # Table of Contents\n\n
-  ## Installation\n\n
+  [Live Link](${answers.projectLink})\n\n`;
+
+  var tableContents;
+
+  if (answers.table === true) {
+    tableContents = `## Table of Contents\n
+    * [Description](#description)\n
+    * [Installation](#installation)\n
+    * [Usage](#usage)\n
+    * [Credits](#credits)\n
+    * [License](#license)\n
+    * [Features](#features)\n
+    * [Contributing](#contributing)\n
+    * [Tests](#tests)\n
+    * [Acknowledgments](#acknowledgments)\n
+    `;
+  } else {
+    tableContents = "";
+  }
+
+  endReadMe = `## Installation\n\n
   ${answers.installation}\n\n
   ## Usage\n\n
   ${answers.usage}\n
@@ -26,7 +44,7 @@ function generateMarkdown(answers) {
   ${answers.credits}\n
   # [${answers.gitHub}](www.github.com/${answers.gitHub})\n\n 
   ## License\n\n
-  ${answers.license}\n\n
+  ![license](https://img.shields.io/badge/license-${answers.license}-brightgreen)\n\n
   ## Features\n\n
   ${answers.features}\n\n
   ## Contributing\n\n
@@ -35,6 +53,10 @@ function generateMarkdown(answers) {
   ${answers.tests}\n\n 
   ## Acknowledgments\n\n
   ${answers.acknowledgments}`;
+
+  var completeReadme = (topReadMe += tableContents += endReadMe);
+
+  return completeReadme;
 }
 
 module.exports = generateMarkdown;

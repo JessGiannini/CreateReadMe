@@ -26,10 +26,9 @@ const questions = [
   },
   {
     // create a while true function to then create id tags for table of contents
-    type: "checkbox",
+    type: "confirm",
     message: "Would you like to include a table of contents?",
     name: "table",
-    choices: ["Yes", "No"],
   },
   {
     // title ## Installation \n\n user input step by step description
@@ -67,7 +66,7 @@ const questions = [
     type: "checkbox", //license question
     message: "Which license did you use to create this project?",
     name: "license",
-    choices: ["MIT", "OTHER", "OTHER2, OTHER3"],
+    choices: ["MIT", "BSD", "GPL", "Apache"],
   },
   {
     //title ## Features\n\n user input list of features
