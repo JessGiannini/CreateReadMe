@@ -2,7 +2,7 @@
 
 ## Description
 
-Creates unique Read Me files quickly.
+Creates unique Read Me files quickly using a series of questions. See a walk through of how it works below.
 
 [Video Link](https://drive.google.com/file/d/1uSLRtKF4DGA3raXzcSO9ECwNMGzPI3fu/view)
 
@@ -30,9 +30,7 @@ Using your terminal to answer questions will creates a dynamic Read Me file. Thi
 
 ![Screenshot](./readmecodesnippet.png)
 
-Git Hub
-
-# [JessGiannini](https://github.com/JessGiannini)
+## [GitHub Link](https://github.com/JessGiannini)
 
 ## License
 
@@ -50,4 +48,8 @@ No tests at this time.
 
 If you have any questions you can email me at undefined or find me on Git Hub.
 
-# [JessGiannini](https://github.com/JessGiannini)
+## Links
+
+- [Link to Portfolio Site](https://jessgiannini.github.io/WebDeveloperPortfolio/)
+- [Link to Github](https://github.com/jessgiannini)
+- [Link to LinkedIn](https://www.linkedin.com/in/jessica-aletta-giannini-155b1310/)
