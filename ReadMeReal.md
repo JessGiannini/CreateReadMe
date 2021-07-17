@@ -11,10 +11,8 @@ Creates unique Read Me files quickly.
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
 - [License](#license)
 - [Features](#features)
-- [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
 
