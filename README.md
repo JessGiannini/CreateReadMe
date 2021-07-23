@@ -1,10 +1,10 @@
-# Read Me Generator
+# This is Bob
 
-  ![license](https://img.shields.io/badge/license-GPL-brightgreen) 
+  ![license](https://img.shields.io/badge/license--brightgreen) 
   ## Description
 
 
-  Creates unique Read Me files quickly.
+  Bob is a program that helps you locate men named Bob.
  
   [Live Link](www.google.com)
 
@@ -23,52 +23,52 @@
 ## Installation
 
 
-  You can install it using your terminal.
+  Open laptop and start program.
 
 
   ## Usage
 
 
-  Using your terminal to answer questions creates a dynamic Read Me file.
+  Find Bob and hit enter.
 
-  ![Screenshot}(./img/screenshot)
+  ![Screenshot](./img/bob.jpeg)
 
 
   ## Credits
 
 
-  No one
+  no one
 
-  # [jessgiannini](www.github.com/jessgiannini)
+  ## [Git Hub Link](https://github.com/BobBob)
 
  
   ## License
 
 
-  This project uses the GPL license. To learn more visit [GPL](https://en.wikipedia.org/wiki/GPL_License)
+  This project uses the  license. To learn more visit [](https://en.wikipedia.org/wiki/_License)
 
 
   ## Features
 
 
-  A table of contents if you want it.
+  All of them
 
 
   ## Contributing
 
 
-  You can send me an email asking to contribute.
+  Email me at Bob@bob.com
 
 
   ## Tests
 
 
-  No tests at this time.
+  so many test
 
  
   ## Questions
 
 
-  If you have any questions you can email me at undefined or find me on Git Hub.
+  If you have any questions you can email me at bob@bob.com or find me on Git Hub.
 
-  # [jessgiannini](www.github.com/jessgiannini)
+  ## [GIt Hub Link](https://github.com/BobBob)

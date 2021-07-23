@@ -4,7 +4,7 @@
 
 Creates unique Read Me files quickly using a series of questions. See a walk through of how it works below.
 
-[Video Link](https://drive.google.com/file/d/1uSLRtKF4DGA3raXzcSO9ECwNMGzPI3fu/view)
+[Video Link](https://drive.google.com/file/d/1zQErUKNnK3qKgMTfU5x-BvabnWtr0LuY/view)
 
 ## Table of Contents
 
